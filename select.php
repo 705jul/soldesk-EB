@@ -226,6 +226,3 @@ document.querySelectorAll('thead th[data-col]').forEach(th => {
 </script>
 </body>
 </html>
-
-aws beanstalk 환경 배포시 스샷처럼 환경속성을 설정해서 배포 후 웹에서 위 select.php를 로드 했을때 연결이 안됩니다.
-또한 배포된 EC2에서 echo $DB_HOST 했을 때 아무런 값이 나오지 않습니다.
